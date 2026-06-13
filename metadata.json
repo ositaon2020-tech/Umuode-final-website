@@ -1,0 +1,6 @@
+{
+  "name": "Umuode",
+  "description": "The official digital portal of the Umuode Autonomous Community: exploring our history, traditions, culture, leadership, and global development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
