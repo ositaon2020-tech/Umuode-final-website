@@ -307,13 +307,27 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
     <div className="space-y-16">
       {/* Hero Header Banner */}
       <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-maroon-950 via-maroon-900 to-royal-950 text-white min-h-[500px] flex items-center shadow-xl">
-        {/* Background Image of Umuode Landscape (Photorealistic Drone view) */}
-        <img 
-          src="/src/assets/images/umuode_landscape_1781219185792.jpg" 
-          alt="Umuode Landscape Panoramic View" 
+        {/* Background Looping Video of Umuode River (Aerial Drone View) */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-overlay z-0 select-none pointer-events-none"
-          referrerPolicy="no-referrer"
-        />
+          poster="/src/assets/images/umuode_landscape_1781219185792.jpg"
+        >
+          <source 
+            src="https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-winding-river-in-the-forest-41617-large.mp4" 
+            type="video/mp4" 
+          />
+          {/* Fallback to original landscape image */}
+          <img 
+            src="/src/assets/images/umuode_landscape_1781219185792.jpg" 
+            alt="Umuode Landscape Panoramic View" 
+            className="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-overlay z-0 select-none pointer-events-none"
+            referrerPolicy="no-referrer"
+          />
+        </video>
         {/* Additional backing overlay for readability */}
         <div className="absolute inset-0 bg-slate-950/30 z-0"></div>
         {/* Decorative African traditional motif design overlay using abstract CSS */}
