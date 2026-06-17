@@ -113,7 +113,7 @@ export const TIMELINE: TimelineEvent[] = [
 
 export const REF_HEROES = [
   {
-    name: "Prof. Barth Okechukwu Nnaji",
+    name: "Prof. Bart Okechukwu Nnaji",
     role: "Global Scientist & Community Liberator",
     contributions: [
       "Led the decades-long struggle for obtaining official autonomous status separating Umuode from Oruku.",

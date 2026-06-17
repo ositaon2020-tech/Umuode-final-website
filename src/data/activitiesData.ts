@@ -11,9 +11,9 @@ export interface CalendarEvent {
 
 export const CALENDAR_EVENTS: CalendarEvent[] = [
   {
-    title: "Barth Nnaji Foundation Annual Meeting",
+    title: "Bart Nnaji Foundation Annual Meeting",
     date: "December 26th every year",
-    location: "Nnaji Estate Conference Grounds, Umuode",
+    location: "Prof Bart Nnaji Compound, Umuode",
     frequency: "Annual",
     attendees: "Youths, Community Scholars, and General Members",
     description: "Evaluates standard scholarship grants, identifies skills developments targets, and outlines philanthropic projects for the forthcoming year."
