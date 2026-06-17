@@ -10,6 +10,7 @@ import PublicationsView from './components/PublicationsView';
 import GalleryView from './components/GalleryView';
 import BlogView from './components/BlogView';
 import VirtualRealityPortal from './components/VirtualRealityPortal';
+import umuodeLogo from './assets/images/umuode_logo_1781734159118.00.20.jpeg';
 import { 
   Home, 
   BookOpen, 
@@ -259,8 +260,13 @@ export default function App() {
             onClick={() => { setActiveTab('home'); setMobileMenuOpen(false); }}
             className="flex items-center gap-2.5 cursor-pointer group"
           >
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-maroon-800 to-maroon-900 flex items-center justify-center shadow-md border-2 border-gold-500">
-              <Sparkles className="w-5 h-5 text-gold-500 group-hover:rotate-12 transition-transform" />
+            <div className="w-11 h-11 rounded-full overflow-hidden shadow-md border-2 border-gold-500 flex items-center justify-center bg-slate-900 transition-transform duration-300 group-hover:scale-105">
+              <img 
+                src={umuodeLogo} 
+                alt="Umuode Autonomous Community Logo" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div>
               <div className="font-serif font-bold text-maroon-900 leading-tight tracking-tight text-lg flex items-center gap-1">
@@ -556,8 +562,13 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-gold-500 flex items-center justify-center">
-                  <Sparkles className="w-4 h-4 text-maroon-900" />
+                <div className="w-9 h-9 rounded-full overflow-hidden border border-gold-500/50 bg-slate-950 flex items-center justify-center">
+                  <img 
+                    src={umuodeLogo} 
+                    alt="Umuode Autonomous Community Logo" 
+                    className="w-full h-full object-cover"
+                    referrerPolicy="no-referrer"
+                  />
                 </div>
                 <span className="font-serif font-bold text-white text-lg tracking-wide">UMUODE PORTAL</span>
               </div>
