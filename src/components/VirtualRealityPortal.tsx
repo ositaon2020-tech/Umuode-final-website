@@ -122,7 +122,7 @@ const PANORAMIC_NODES: VRNode[] = [
     name: "The Sacred Inyaba River Sanctuary",
     category: "Waters & Peace",
     description: "The primary spiritual and ecological lifeline of Umuode, known for its pristine therapeutic sands and purifying water properties.",
-    imageUrl: "https://drive.google.com/file/d/1sZbycIlgNXPUYYD0sQaGE2SX4Ho9tdzD/view?usp=drive_link", // Forest river coordinates
+    imageUrl: "src/assets/images/Inyama River 2.png", // Forest river coordinates
     hotspots: [
       { id: "h1", title: "Ritual Purifications", desc: "Lineage elders gather on this shore annually with white chalk (Nzu) to evoke peaceful Chi alignments.", x: 28, y: 48, color: "bg-teal-500 border-teal-200" },
       { id: "h2", title: "Pristine Glass Sands", desc: "A key economic block defined under local laws. Clean sand is restricted from harmful industrial dredging to safeguard the fish nurseries.", x: 55, y: 72, color: "bg-amber-500 border-amber-200" },
