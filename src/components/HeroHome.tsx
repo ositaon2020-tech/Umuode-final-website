@@ -112,7 +112,7 @@ const IGBO_PROVERBS = [
     translation: "If a person says yes, their personal guiding spirit (Chi) says yes too.",
     meaning: "A testament to absolute self-determination, industriousness, and willpower. This proverb is the guiding light for Umuode's agriculturalists and scholars.",
     category: "Determination",
-    imageUrl: "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80", // African agricultural determination
+    imageUrl: "src/assets/images/Inyama River 2.png0", // African agricultural determination
     videoID: "PCZkCzoOZfw",
     videoOffset: "120",
     videoTitle: "Umuode Agricultural Parade"
