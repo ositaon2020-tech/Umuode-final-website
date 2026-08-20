@@ -341,7 +341,7 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/20 border border-gold-500/40 text-gold-100 text-xs font-mono font-medium tracking-wide uppercase"
           >
             <Sparkles className="w-3 px-0.5 h-3 text-gold-500 animate-pulse" />
-            Land of Milk and Honey
+            Land of Milk and Hone
           </motion.div>
           
           <motion.h1 
