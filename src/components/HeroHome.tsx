@@ -112,7 +112,7 @@ const IGBO_PROVERBS = [
     translation: "If a person says yes, their personal guiding spirit (Chi) says yes too.",
     meaning: "A testament to absolute self-determination, industriousness, and willpower. This proverb is the guiding light for Umuode's agriculturalists and scholars.",
     category: "Determination",
-    imageUrl: "src/assets/images/Inyama River 2.png0", // African agricultural determination
+    imageUrl: "/src/assets/images/Inyama River 2.png", // African agricultural determination
     videoID: "PCZkCzoOZfw",
     videoOffset: "120",
     videoTitle: "Umuode Agricultural Parade"
@@ -314,7 +314,7 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-overlay z-0 select-none pointer-events-none"
-          poster="/src/assets/images/umuode_landscape_1781219185792.jpg"
+          poster="/src/assets/images/umuode_landscape_1781219185792.png"
         >
           <source 
             src="https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-winding-river-in-the-forest-41617-large.mp4" 
@@ -322,7 +322,7 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
           />
           {/* Fallback to original landscape image */}
           <img 
-            src="/src/assets/images/umuode_landscape_1781219185792.jpg" 
+            src="/src/assets/images/umuode_landscape_1781219185792.png" 
             alt="Umuode Landscape Panoramic View" 
             className="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-overlay z-0 select-none pointer-events-none"
             referrerPolicy="no-referrer"
@@ -331,7 +331,7 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
         {/* Additional backing overlay for readability */}
         <div className="absolute inset-0 bg-slate-950/30 z-0"></div>
         {/* Decorative African traditional motif design overlay using abstract CSS */}
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:24px_24px] z-0"></div>
+        <div className="absolute inset-0 opacity-10 [background-size:24px_24px] z-0"></div>
         
         <div className="relative max-w-4xl mx-auto px-6 py-16 text-center space-y-6 z-10">
           <motion.div 

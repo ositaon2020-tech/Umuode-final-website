@@ -122,7 +122,7 @@ const PANORAMIC_NODES: VRNode[] = [
     name: "The Sacred Inyaba River Sanctuary",
     category: "Waters & Peace",
     description: "The primary spiritual and ecological lifeline of Umuode, known for its pristine therapeutic sands and purifying water properties.",
-    imageUrl: "src/assets/images/Inyama River 2.png", // Forest river coordinates
+    imageUrl: "/src/assets/images/Inyama River 2.png", // Forest river coordinates
     hotspots: [
       { id: "h1", title: "Ritual Purifications", desc: "Lineage elders gather on this shore annually with white chalk (Nzu) to evoke peaceful Chi alignments.", x: 28, y: 48, color: "bg-teal-500 border-teal-200" },
       { id: "h2", title: "Pristine Glass Sands", desc: "A key economic block defined under local laws. Clean sand is restricted from harmful industrial dredging to safeguard the fish nurseries.", x: 55, y: 72, color: "bg-amber-500 border-amber-200" },
@@ -134,7 +134,7 @@ const PANORAMIC_NODES: VRNode[] = [
     name: "His Royal Highness Igwe Court Palace",
     category: "Royal Sovereignty",
     description: "The seat of local royalty, built with high-vaulted corridors showcasing carved wood emblems and traditional copper royal insignias.",
-    imageUrl: "https://drive.google.com/file/d/1zVOPs-8_DaXvPaSjhp5ohKDggHMO8zPJ/view?usp=drive_link", // Festive open court entrance atmosphere
+    imageUrl: "https://lh3.googleusercontent.com/d/1zVOPs-8_DaXvPaSjhp5ohKDggHMO8zPJ", // Festive open court entrance atmosphere
     hotspots: [
       { id: "p1", title: "Royal Throne (Oche Igwe)", desc: "Dressed in red velvet and leopard skins, representing sovereign protection and physical custom leadership.", x: 50, y: 55, color: "bg-rose-600 border-rose-300" },
       { id: "p2", title: "Sovereign Spear (Ofo)", desc: "The supreme physical totem of truth. No law or elders treaty can be sealed without hoisting this ivory emblem.", x: 18, y: 42, color: "bg-gold-500 border-yellow-200" },
