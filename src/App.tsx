@@ -249,7 +249,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gold-50 flex flex-col justify-between selection:bg-maroon-800 selection:text-white">
+    <div className="min-h-screen bg-gold-50 flex flex-col justify-between selection:bg-blue-800 selection:text-white">
       
       {/* Top Main Navigation Header */}
       <header className="sticky top-0 bg-white/95 backdrop-blur-md border-b border-gold-500/10 z-40 shadow-xs">
