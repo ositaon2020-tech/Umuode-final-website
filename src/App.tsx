@@ -396,13 +396,6 @@ export default function App() {
             </button>
             
             {/* Visit Umuode Action Button */}
-            <button 
-              onClick={() => setShowGetStartedModal(true)}
-              className="px-4 py-2 text-xs font-bold font-display tracking-tight text-white bg-gradient-to-r from-maroon-800 to-maroon-900 hover:from-maroon-950 hover:to-royal-950 rounded-xl shadow-md active:translate-y-[1px] transition-all cursor-pointer flex items-center gap-1.5 border border-maroon-950/20"
-            >
-              <Compass className="w-3.5 h-3.5 text-gold-400 animate-spin-slow" />
-              Visit Umuode
-            </button>
           </div>
 
           {/* Mobile Right Hand Controls (Search + Hamburger) */}
