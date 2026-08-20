@@ -329,7 +329,7 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
           />
         </video>
         {/* Additional backing overlay for readability */}
-        <div className="absolute inset-0 bg-slate-950/30 z-0"></div>
+        // <div className="absolute inset-0 bg-slate-950/30 z-0"></div>
         {/* Decorative African traditional motif design overlay using abstract CSS */}
         <div className="absolute inset-0 opacity-10 [background-size:24px_24px] z-0"></div>
         
@@ -341,7 +341,7 @@ export default function HeroHome({ onNavigate }: { onNavigate: (tab: any) => voi
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/20 border border-gold-500/40 text-gold-100 text-xs font-mono font-medium tracking-wide uppercase"
           >
             <Sparkles className="w-3 px-0.5 h-3 text-gold-500 animate-pulse" />
-            Land of Milk and Hone
+            Land of Milk and Honey
           </motion.div>
           
           <motion.h1 
